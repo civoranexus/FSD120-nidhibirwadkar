@@ -131,3 +131,38 @@
 </p>
 
 
+
+# Society360 – Smart Residential Management System
+
+## Project Overview
+Society360 is a web-based application created to help manage the day-to-day activities of a residential society in a digital way. The system aims to reduce manual work and improve communication between residents and society management.
+The application provides separate access for residents, administrators, security staff, and maintenance staff so that each user can perform their tasks easily and securely. The main focus is to make society operations more organized, transparent, and easy to manage.
+
+## Project Objectives
+- To create a centralized platform for managing residential society activities
+- To provide secure login and role-based access for different users
+- To manage visitor entry and exit records digitally
+- To allow residents to raise maintenance requests online
+- To track maintenance bills and payments
+- To share important announcements and notifications within the society
+
+## User Roles
+- **Admin / Management Committee**  
+  Responsible for managing users, approving requests, handling billing, and posting announcements.
+ **Residents**  
+  Can view announcements, raise maintenance requests, check bills, and approve visitors.
+
+ **Security Staff**  
+  Manages visitor entry and exit records and ensures authorized access.
+
+- **Maintenance Staff**  
+  Handles maintenance tasks assigned by the management and updates task status.
+
+## Technologies (Planned)
+- **Frontend:** React.js for building user interfaces
+- **Backend:** Java Spring Boot for server-side logic
+- **Database:** MySQL for storing user and society data
+- **Version Control:* Git & GitHub for source code management
+
+## Project Status
+The project is currently in the initial development stage. Basic project setup and documentation have been completed. Database design and backend development will be implemented in the next phases.
