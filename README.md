@@ -166,3 +166,8 @@ The application provides separate access for residents, administrators, security
 
 ## Project Status
 The project is currently in the initial development stage. Basic project setup and documentation have been completed. Database design and backend development will be implemented in the next phases.
+
+
+
+## Database Design
+The initial database schema has been created for the Society360 project. It includes basic tables for user roles and users. This database structure will be extended in future commits to support visitor management, maintenance requests, and billing features.
