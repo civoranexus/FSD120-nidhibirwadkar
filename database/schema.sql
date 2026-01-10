@@ -39,3 +39,23 @@ CREATE TABLE maintenance_requests (
     request_date DATE,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
+
+CREATE TABLE bills (
+    bill_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    bill_month VARCHAR(20),
+    amount DECIMAL(10,2),
+    due_date DATE,
+    status VARCHAR(20),
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+CREATE TABLE payments (
+    payment_id INT PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    payment_date DATE,
+    payment_method VARCHAR(50),
+    payment_status VARCHAR(20),
+    FOREIGN KEY (bill_id) REFERENCES bills(bill_id)
+);
+
