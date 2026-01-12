@@ -171,3 +171,7 @@ The project is currently in the initial development stage. Basic project setup a
 
 ## Database Design
 The initial database schema has been created for the Society360 project. It includes basic tables for user roles and users. This database structure will be extended in future commits to support visitor management, maintenance requests, and billing features.
+
+
+## Frontend Structure
+The frontend folder structure has been created to organize UI development. It includes separate folders for components, pages, and services, which will be used to build reusable UI elements, application pages, and API communication logic.
