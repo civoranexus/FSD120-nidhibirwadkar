@@ -175,3 +175,8 @@ The initial database schema has been created for the Society360 project. It incl
 
 ## Frontend Structure
 The frontend folder structure has been created to organize UI development. It includes separate folders for components, pages, and services, which will be used to build reusable UI elements, application pages, and API communication logic.
+
+
+
+## Frontend Pages
+Basic frontend page structure has been created using React. Dummy pages such as Login, Dashboard, Maintenance, and Billing have been added as placeholders. These pages will be enhanced with UI components and backend integration in future phases.
