@@ -1,8 +1,17 @@
 package backend.controller;
 
-// Handles maintenance-related requests
+import backend.service.MaintenanceService;
+
 public class MaintenanceController {
 
-    // This class will manage maintenance complaints
+    MaintenanceService maintenanceService;
+
+    public MaintenanceController(MaintenanceService maintenanceService) {
+        this.maintenanceService = maintenanceService;
+    }
+
+    public String getRequests() {
+        return maintenanceService.getAllRequests();
+    }
 }
 

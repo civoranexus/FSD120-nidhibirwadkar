@@ -1,7 +1,19 @@
 package backend.controller;
 
-// User Controller (Dummy)
+import backend.service.UserService;
+
 public class UserController {
 
-    // This controller will handle user-related requests
+    UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
+
+    public String getUsers() {
+        return userService.getAllUsers();
+    }
 }
+
+
+

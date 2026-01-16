@@ -1,8 +1,17 @@
 package backend.controller;
 
-// Handles visito related requests
+import backend.service.VisitorService;
+
 public class VisitorController {
 
-    // This class will manage visitor entry and exit
+    VisitorService visitorService;
+
+    public VisitorController(VisitorService visitorService) {
+        this.visitorService = visitorService;
+    }
+
+    public String getVisitors() {
+        return visitorService.getAllVisitors();
+    }
 }
 

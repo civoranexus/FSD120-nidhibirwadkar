@@ -1,8 +1,10 @@
 package backend.service;
 
-// User Service (Dummy)
 public class UserService {
 
-    // Business logic for users will be added here
+    public String getAllUsers() {
+        return "User service is working";
+    }
 }
+
 

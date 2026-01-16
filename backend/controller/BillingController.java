@@ -1,8 +1,16 @@
 package backend.controller;
 
-// Handles billing and payment-related requests
+import backend.service.BillingService;
+
 public class BillingController {
 
-    // This class will manage bills and payment records
-}
+    BillingService billingService;
 
+    public BillingController(BillingService billingService) {
+        this.billingService = billingService;
+    }
+
+    public String getBills() {
+        return billingService.getAllBills();
+    }
+}
