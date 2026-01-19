@@ -13,5 +13,8 @@ public class VisitorController {
     public String getVisitors() {
         return visitorService.getAllVisitors();
     }
-}
 
+    public String createVisitor() {
+        return visitorService.addVisitor();
+    }
+}
