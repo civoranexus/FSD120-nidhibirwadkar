@@ -1,3 +1,5 @@
+package com.society360.backend.model;
+
 public class User {
 
     private int id;
@@ -6,6 +8,7 @@ public class User {
     private String role;
 
     public User() {
+        // default constructor
     }
 
     public int getId() {
@@ -40,5 +43,4 @@ public class User {
         this.role = role;
     }
 }
-
 
