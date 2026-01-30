@@ -15,6 +15,12 @@ public class UserService {
     }
 
     public List<User> getAllUsers() {
-        return repository.findAllUsers();
-    }
+    return List.of(
+        new User(1, "Nidhi", "nidhi@gmail.com", "Admin"),
+        new User(2, "Amit", "amit@gmail.com", "Resident"),
+        new User(3, "Sneha", "sneha@gmail.com", "Resident")
+    );
 }
+
+}
+
