@@ -1,8 +1,21 @@
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Login";
+import Dashboard from "./Dashboard";
+import Users from "./Users";
+import Maintenance from "./Maintenance";
+
 function App() {
   return (
-    <div>
-      <h1>Society360 Frontend</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/maintenance" element={<Maintenance />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
